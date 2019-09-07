@@ -1,3 +1,4 @@
+
 package com.aman.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -9,5 +10,4 @@ public class BootjpaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BootjpaApplication.class, args);
 	}
-
 }
