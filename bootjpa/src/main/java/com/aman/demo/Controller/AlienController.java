@@ -35,18 +35,17 @@ public class AlienController {
 		return alien;
 	}
 
-	
 	@GetMapping(path = "/aliens", produces = { "application/json" })
 	public List<Alien> getAliens() {
 		return repo.findAll();
 	}
 
 	@GetMapping("/alienname/{aname}")
-	public List<Alien> getAlienName(@PathVariable String aname){
+	public List<Alien> getAlienName(@PathVariable String aname) {
 		System.out.println(aname);
 		return repo.abc(aname);
 	}
-	
+
 	@GetMapping("/alien/{aid}")
 	public Optional<Alien> getAlien(@PathVariable int aid) {
 		return repo.findById(aid);
@@ -57,7 +56,7 @@ public class AlienController {
 		Alien a = repo.getOne(aid);
 		repo.delete(a);
 		return "Deleted Succesfully";
-		
+
 	}
 
 	@PutMapping("/alien")
