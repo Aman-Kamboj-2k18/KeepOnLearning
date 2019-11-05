@@ -1,0 +1,192 @@
+package annona.utility;
+
+public class Constants {
+
+	public static final String APPROVED = "Approved";
+	public static final String PENDING = "Pending";
+	public static final String CLOSED = "Closed";
+	public static final String QUARTERLY = "Quarterly";
+	public static final String HALFYEARLY = "Half Yearly";
+	public static final String FULLYEARLY = "FullYearly";
+	public static final String CUSTOMER = "Customer Details";
+	public static final String CUSTOMERSTATUS = "Account Balance added";
+	public static final String FIXEDDEPOSIT = "Deposit";
+	public static final String FDSTATUS = "Flexi deposit created successfully";
+	public static final String DAY = "Day";
+	public static final String MONTH = "Month";
+	public static final String YEAR = "Year";
+	public static final String SUCCESS = "success";
+	public static final String ERROR = "error";
+	public static final String ROLE = "Username already exists. Please try with different username.";
+	public static final String SAVEDROLE = "Saved Successfully";
+	public static final String ROLEADDED = "Role status saved successfully";
+	public static final String MODULEROLE = "Role";
+	public static final String NOTIFICATION = "Notification Sent";
+	public static final String SENTMAIL = "Mail has been sent successfully";
+	public static final String BANKSUBJECT = "Bank Details Notification";
+	public static final String HELLO = "Hello ";
+	public static final String BANKBODY1 = ",\n\n\nAn official account has been created for you.\n\n\nYour Login Credentials are:\n\n\nUser Name:";
+	public static final String BANKBODY2 = "\n\n\nPassword: ";
+	public static final String BANKBODY3 = "\n\n\nConatct Number:";
+	public static final String CURRENTROLE = "\n\n\nCurrent Role: ";
+	public static final String BANKSIGNATURE = "\n\n\nRegards,\nBank";
+	public static final String BANKBODY4 = "\n\n An official account has been created for you.\n";
+	public static final String BANKBODY5 = ",\n\n\n Your Account has been Rejected ";
+	public static final String BANKBODY6 = ",\n\n\n Your account approval is pending.";
+	public static final String APPROVALMNGSUBJECT = "Approval Manager Details Notification";
+	public static final String SENT = "Sent";
+	public static final String APPBANK = "Bank Employee Deatils Update Status";
+	public static final String APPSTATUS = "Approved successfully";
+	public static final String APPCUSTOMER = "Customer Head Approval";
+	public static final String CUSTOMERSUBJECT = "Customer Details Notification";
+	public static final String TRSTATUSFORRATE = "Rates updated successfully";
+	public static final String TRTYPEFORRATE = "Rates";
+	public static final String ONCE = "once";
+	public static final String MONTHLY = "monthly";
+	public static final String QUARTER = "quarterly";
+	public static final String HALFYEAR = "halfYearly";
+	public static final String EMPTY = "";
+	public static final String CASHFDSTATUS = "Cash paid successfully";
+	public static final String TRANSFERFD = "Money Transfer";
+	public static final String DUPLICATECATEGORY = "Category already added";
+	public static final String SINGLE = "SINGLE";
+	public static final String JOINT = "JOINT";
+	public static final String CONSORTIUM = "CONSORTIUM";
+	public static final String PART = "PART";
+	public static final String PERCENT = "PERCENT";
+	public static final String SAVINGACCOUNTDEBIT = "Fund Transfer";
+	public static final String PRIMARY = "PRIMARY";
+	public static final String SECONDARY = "SECONDARY";
+	public static final String OPEN = "OPEN";
+	public static final String CLOSESTATUS = "CLOSE";
+	public static final String AUTO = "AUTO";
+	public static final String invalidTenure = "Invalid tenure entered.";
+	public static final String FUNDTRANSFERCARD = "Card Payment";
+	public static final String WITHDRAW = "Withdraw";
+	public static final String EMI = "EMI";
+	public static final String FUNDTRANSFER = "Fund Transfer";
+	public static final String SAVINGACCOUNTERROR = "Saving account doesn't exist";
+	public static final String PENALTY = "ModificationPenalty";
+	public static final String PENALTY2 = "PreMaturityClosePenalty";
+	public static final String PreMatureClosingPenalty = "Premature Closing Penalty";
+	public static final String PENALTY1 = "Penalty";
+	public static final String MissedRecurringPaymentPenalty = "Penalty for Missed Payment";
+	
+	public static final Double GST = 9d;
+	public static final String ANNUALLY = "annually";
+	public static final String SUBMISSION15H = "15H";
+	public static final String SUBMISSION15G = "15G";
+	public static final String NOTSUBMITTED = "Not Submitted";
+	public static final String SENIORCITIZEN = "Senior Citizen";
+	public static final String No = "No";
+	public static final String FORMSUBMITTED = "Form Already Submitted";
+	public static final String ACCOUNTERROR = "Please Insert Correct Account Number";
+	public static final String NODATACUSTOMER = "noDataFoundCusm";
+	public static final String SYSTEM = "SYSTEM";
+	public static final String TRANSACTIONID = "transactionId";
+	public static final String TRANSACTIONDATE = "transactionDate";
+	public static final String TRANSACTIONSTATUS = "transactionStatus";
+	public static final String CUSTOMEREDITED = "Customer Edited";
+	public static final String ACCOUNTUPDATED = "Account Updated";
+	public static final String ACCOUNT = "Account Details";
+	public static final String CUSTOMERADDED = "Customer Added";
+	public static final String PAYMENT = "Payment";
+	public static final String AUTOPAYMENT = "Auto Payment";
+	public static final String EXCELERROR = "Invalid Excel Data";
+	public static final String PAYOFF = "PAYOFF";
+	public static final String DONEPS = "DONE";
+	public static final String TENURE = "TENURE";
+	public static final String ONETIME = "One-Time";
+	public static final String TDS = "TDS";
+	public static final String REVERSEEMI = "REVERSE-EMI";
+	public static final String customerNotFound = "Customer does not exist or not authorized yet";
+	public static final String bankEmpNotFound = "Bank Employee does not exist or not authorized yet";
+	public static final String appMngNotFound = "Approval Manager does not exist";
+	public static final String WAITINGFORCLEARANCE = "WaitingForClearance";
+	public static final String INTERESTADJUSTMENTFORWITHDRAW = "Interest Adjustment For Withdraw Within 7 days";
+	public static final String WITHDRAWFROMSAVING = "Withdraw From Saving";
+	public static final String WITHDRAWLISTERROR = "No withdrawal found for this deposit.";
+	public static final String Suspended = "Suspended";
+	public static final String AlreadyExist = "Category Already Exist";
+
+	// Job name in DB.....
+	public static final String INTERESTCALCULATION = "Interest Calculation";
+	public static final String PAYOFFCALCULATION = "Payoff Calculation";
+	public static final String AUTODEDUCTION = "Auto Deduction";
+	public static final String AUTODEPOSITCREATION = "Auto Deposit Creation";
+	public static final String REVERSEEMIDEDUCTION = "Reverse EMI Deduction";
+	public static final String MODIFICATIONPENALITY = "Modification Penality Calculation";
+	public static final String TRANSFERMONEYONMATURITY = "Transfer Money on Maturity";
+	public static final String PanCardExist = "PAN card is already register with another user name. Please check the PAN card number.";
+	public static final String aadharCardExist = "Aadhar card is already register with another user name. Please check the Aadhar card number.";
+	public static final String CUSTOMERUNSUCCESSPAYMENTSUBJECT = "Payment Unsucessful";
+	public static final String CUSTOMERREMENDERSUBJECT = "Deposit Payment Reminder - IMPORTANT";
+	public static final String PAYMENTKBODY1 = ",\n\n\nPayment unsucessful due to insufficient balance.";
+	 public static final String PAYMENTKBODY2 = ",\n\n\n1 Day is left for your deposit paymet.If you already paid the amount than please ignore this mmessage.";
+	 public static final String PAYMENTKBODY3 = ",\n\n\n2 Days is left for your deposit paymet.If you already paid the amount than please ignore this mmessage.";
+	 public static final String PAYMENTKBODY4 = ",\n\n\n Thank you for your deposit payment. We Received your amount of Rs:";
+	 public static final String PAYMENTKBODY5 = "\n\nSuccessfully.";
+	 public static final String WITHDRAWBODY1 = ",\n\n\n Withdrawal of INR ";
+	 public static final String WITHDRAWDATE = "on :";
+	 public static final String INSUFFICIENTBAL = "Insufficient Balance in your account.";
+	 public static final String deletedSuccessfully = "Deleted Successfully.";
+	 public static final String payOffError = "No PayOff for this deposit.";
+	  public static final String payOferror = "payOfferror";
+	  public static final String benificiaryError = "benificiaryError";
+	  public static final String benificiaryErrorMsg = "No Banificiary for this deposit.";
+	  public static final String reverseEmiError = "reverseEmiError";
+	  public static final String reverseEmiErrorMsg = "No Reverse Emi for this Deposit.";
+	  public static final String onDeath = "On Death";
+      public static final String onClose = "On Close";
+      public static final String amount = "Amount";
+      public static final String bankPaymentDetails = "bankPaymentDetails";
+      public static final String regular =  "Regular";
+      public static final String general =  "General";
+      public static final String fixedAmount =  "Fixed Amount";
+      public static final String fixedTenure =  "Fixed Tenure";
+      public static final String REVERSEEMIONBASIS =  "REVERSEEMIONBASIS";
+      public static final String fixedAmountEmi =  "fixedAmount";
+      public static final String fixedTenureEmi =  "fixedTenure";
+      
+      public static final String fixedDeposit =  "Regular Deposit";
+      public static final String recurringDeposit =  "Recurring Deposit";
+      public static final String annuityDeposit =  "Annuity Deposit";
+      public static final String autoDeposit =  "Sweep Deposit";
+      public static final String taxSavingDeposit =  "Tax Saving Deposit";
+      public static final String taxSavingError =  "Can not make payment for tax saving deposit";
+      public static final String withdrawError =  "Can not withdraw amount for tax saving deposit";
+      public static final String withdrawLockingPeriodError =  "Deposit is still in locking period, can not withdraw.";
+      public static final String NRI =  "NRI";
+      public static final String RI =  "RI";
+      
+      public static final String INTEREST = "Interest";
+      public static final String FIXEDINTEREST = "Fixed Interest";
+      public static final String VARIABLEINTEREST = "Variable Interest";
+      public static final String INTERESTADJUSTMENT = "Interest Adjustment";
+      public static final String INTERESTCOMPOUNDING = "Interest Compounding";
+      public static final String durationError = "Please first add duration for the data to add the rates.";
+      
+      public static final String WithdrawnInRenewal = "Withdrawn In Renewal";
+      public static final String Renew = "Renew";
+      
+      public static final String LoseAmount = "Lose Amount";
+      public static final String NewDepositAmount = "New Deposit Amount";
+      public static final String TransferAmountToSavingAccount = "Transfer Amount To Saving Account";
+      public static final String InterestRate = "Interest Rate"; 
+      public static final String CONVERTDEPOSIT = "convertDeposit"; 
+      public static final String DEPOSITCONVERTED = "Deposit Converted"; 
+      
+      public static final String RECURRINGDEPOSIT = "Recurring Deposit";
+      
+      public static final String topupPenalty = "Penalty for Top-up";
+      public static final String withdrawPenalty = "Penalty for Withdraw";
+      
+      public static final String BranchAlreadyExist = "Branch Already Exist";
+      
+      public static final String PAYMENTMODEEXIST = "PaymentMode Already Exist";
+      
+      public static final String InternalTransfer = "Internal Transfer";
+      
+      public static final String ORNAMENTEXIST = "Ornament Already Exist";
+      
+}

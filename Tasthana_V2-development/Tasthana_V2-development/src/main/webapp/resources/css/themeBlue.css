@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.main_nav .nav {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+
+background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+
+ background: #03A9F4; /* Old browsers */
+      border-bottom: 3px solid #ff670f;
+}
+#cssmenu {
+    border-bottom: 3px solid #0B2F5F;
+    box-shadow: 0px 6px 24px -11px #988787;
+}
+#cssmenu ul li:hover {
+    background-color: #0E627D;
+}
+#cssmenu ul li:hover ul li:hover {
+    background-color:#0E627D;
+}
+/* ul#rates {
+    background: #11686d;
+}
+ */
+.accounts, .savings {
+    background: #0E627D;
+}
+.calendar .calendar-views .now{
+	    color: #fff;
+    background: #0E627D;
+}
+.calendar-display .m, .calendar-views .week, .calendar-views .days .old, .calendar-views .days .new, .calendar-display:hover, .calendar-arrow span:hover {
+    color: #0E627D;
+}
+.calendar-arrow, .calendar-display {
+    color: #0E627D;
+}
+
+
+.role-page, .bank-emp-list, .edit-admin-profile, .edit-admin-pwd, .content{
+
+    box-shadow: 0px 0px 2px #767d80;
+   
+    border: 1px solid #0E627D;
+}

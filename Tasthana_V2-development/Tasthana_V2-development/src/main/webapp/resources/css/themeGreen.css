@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.main_nav .nav {
+    background: #008000;
+    border-bottom: 3px solid #444444;
+}
+
+#cssmenu {
+    border-bottom: 3px solid #008000;
+    box-shadow: 0px 6px 24px -11px #988787;
+}
+#cssmenu ul li:hover {
+    background-color: #008000;
+}
+#cssmenu ul li:hover ul li:hover {
+    background-color:#008000;
+}
+
+.accounts, .savings {
+    background: #008000;
+}
+.calendar .calendar-views .now{
+	    color: #fff;
+    background: #008000;
+}
+.calendar-display .m, .calendar-views .week, .calendar-views .days .old, .calendar-views .days .new, .calendar-display:hover, .calendar-arrow span:hover {
+    color: #008000;
+}
+.calendar-arrow, .calendar-display {
+    color: #008000;
+}
+
+
+
+.top-bar {
+    background-color: #008000;
+}
+.panel a:hover {
+    background-color: #195f1c;
+}
+.panel {
+    background-color: #008000;
+    border-top: 1px solid #115614;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #195f1c;
+        color: #FFF;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #195f1c !important;
+    border-color: #337ab7;
+}
+
+.role-page, .bank-emp-list, .edit-admin-profile, .edit-admin-pwd, .content{
+
+    box-shadow: 0px 0px 2px #767d80;
+   
+    border: 1px solid #4CAF50;
+}

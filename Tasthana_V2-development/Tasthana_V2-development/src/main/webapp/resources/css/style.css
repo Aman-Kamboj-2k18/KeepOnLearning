@@ -1,0 +1,1115 @@
+	body{
+	padding: 0px;
+    margin: 0px;
+	    background: #fafcfe;
+	        overflow-x: hidden;
+	    /* font-family: 'Raleway', sans-serif; */
+}
+
+
+.btn{
+	font-size: 15px !important;
+}
+img.img-responsive.tastana_header {
+    width: 300px;
+}
+.nav li.active {
+    background: aliceblue;
+}
+.body_fixed {
+    width: 1000px;
+    margin: 0px auto;
+    float: none;
+        background: #FFF;
+}
+.header_me {
+    padding: 1px 5px 6px;
+    display: flex;
+    background: #F5F5F5;
+        margin-bottom: 30px;
+}
+.header_me h3{
+	    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 7px;
+    font-weight: 600;
+    color: #1163a5;
+}
+.left-sidebar ul.collapse li{
+	
+	padding-left:24px;
+	
+}
+.left-sidebar ul.collapse li:before {
+    background: #fff;
+    bottom: auto;
+    content: "";
+    height: 8px;
+    left: 21px;
+    margin-top: 17px;
+    position: absolute;
+    right: auto;
+    width: 8px;
+    z-index: 1;
+    border-radius: 50%;
+}
+.left-sidebar ul.collapse li:after {
+    border-left: 1px solid #425668;
+    bottom: 0;
+    content: "";
+    left: 24px;
+    position: absolute;
+    top: 0;
+}
+.ab_bg{
+	    background-image: url(../images/ab.png);
+    background-repeat: space;
+    background-position: 50% 50%;
+    background-blend-mode: overlay;
+}
+.container1 {
+        width: 100%;
+        margin-bottom: 90px;
+/*             padding-bottom: 75px; */
+    margin: 0 auto;/* 
+	background-color: #FFFFFF;
+    height: 116px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+	-moz-box-shadow: 0px 6px 10px -6px rgba(134, 7, 28, 0.31);
+	-webkit-box-shadow: 0px 6px 10px -6px rgba(134, 7, 28, 0.31);
+	-O-box-shadow: 0px 6px 10px -6px rgba(134, 7, 28, 0.31);
+	box-shadow: 0px 6px 10px -6px rgba(134, 7, 28, 0.31); */
+}
+.loginpage{
+	
+	float: left;
+    width: 100%;
+}
+.sub_menu{
+	width: 100%;
+    background: #FFF;
+    padding: 0px;
+    display: table;
+    margin: 0px auto;
+}
+/* User Page */
+	.user-calender {
+    background: rgba(107, 116, 119, 0.15);
+    margin-top: 6px;
+    float: left !important;
+}
+.claendar-user{
+	width: 474px !important;
+    margin: 0px auto !important;
+    
+    padding-left: 66px;
+}
+
+/* End user page */
+/* logo tagline mascot */
+.main_menu{
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 8px;
+  
+    background: -moz-linear-linear-gradient(to bottom, #00c4ff 0%,#03A9F4 100%);
+    background: -webkit-linear-gradient(to bottom, #00c4ff 0%,#03A9F4 100%);
+    background: linear-gradient(to bottom, #00c4ff 0%,#03A9F4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#297dfa',GradientType=0 );
+
+}
+.logo img{
+	width:106px;
+	height:80px;
+	padding-left: 9px;
+}
+.tagline img{
+	width: 478px;
+    height: 80px;
+}
+.tagline{
+	float: left;
+    width: 412px;
+}
+.logo{
+	float: left;
+    width: 392px;
+}
+.annona{
+	    display: block;
+    margin-top: 0.5em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #FFF;
+}
+.tastana {
+    float: right;
+    width: 392px;
+}
+.mas-img{
+	width: 315px;
+    height: 119px;
+    position: absolute;
+    margin-top: -29px;
+}
+.tastana-img{
+	width: 276px;
+    height: 109px;
+    margin-top: -8px;
+}
+.mascot{
+	float: right;
+    width: 313px;
+}
+/* logo tagline mascot style end*/
+
+.user_name{
+	float:left;
+}
+.user_nav{
+	float: right;
+    width: auto;
+    padding-top: 10px;
+}
+.user_name{
+	float: left;
+    width: 246px;
+    padding: 14px 0px;
+}
+
+.user_name p{
+	margin-top: 4px;
+}
+/*  main navbar */
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#cssmenu {
+	width: auto;
+	border-bottom: 3px solid #86071C;
+	font-family: Raleway, sans-serif;
+	line-height: 1;
+    box-shadow: 0px 6px 24px -11px #988787;
+}
+#cssmenu ul {
+	background: #ffffff;
+}
+#cssmenu > ul > li {
+	float: left;
+}
+#cssmenu.align-center > ul {
+	font-size: 0;
+	text-align: center;
+}
+#cssmenu.align-center > ul > li {
+	display: inline-block;
+	float: none;
+}
+#cssmenu.align-right > ul > li {
+	float: right;
+}
+#cssmenu.align-right > ul > li > a {
+	margin-right: 0;
+	margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+	z-index: 2;
+	padding: 10px 25px 12px 25px;
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #444444;
+	margin-right: -4px;
+    font-size: 0.8em;
+}
+.user_name{
+	color: #ffffff;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 6px;
+    left: 12px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+	color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	width: 100%;
+	height: 120%;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	content: "";
+}
+/* #cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #FF163D;
+} */
+/* main nav */
+.main_nav {
+    width: 628px;
+    display: table;
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+	
+		/* Reference: themekings.net 15 Jun 2012 CSS Horizontal Dropdown Navigation Menu */
+/* Some stylesheet reset */
+.main_nav .nav, .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 1;
+}
+
+/* The main container class */
+.main_nav .nav {
+	/* Layout and positioning */
+	display: block;
+	position: relative;
+	height: 44px;
+/*	width: 750px; CHANGE this if you want another width or remove it if you want the width of the container */
+	border-radius: 3px;
+	border-bottom: 3px solid #ff670f;
+}
+.newnav {
+    display: inherit;
+    margin: 0px auto;
+    width: 1000px;
+}
+.main_nav .nav>li {
+	display: block;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 4px 1px 0 0;
+}
+
+/* The main navigation links */
+.main_nav .nav>li>a {
+	/* Layout */
+	display: block;
+	padding: 11px 20px;
+
+	/* Typography */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF; /* #9a9a9a; */
+
+	/* Effects */
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+/* The hover state of the navigation links */
+/* .main_nav .nav>li>a:hover, .nav>li:hover>a {
+	background: #4C4B4B;
+    color: #999;
+} */
+
+.main_nav .nav>li:first-child>a {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	color: whitesmoke;
+}
+
+.main_nav .nav>.dropdown>a {
+	padding-right: 19px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* The arrow indicating a dropdown menu */
+.main_nav .nav>.dropdown>a::after {
+	 content: "";
+	 position: absolute;
+	 top: 14px;
+	 right: 11px;
+	 width: 4px;
+	 height: 4px;
+	 border-bottom: 1px solid #9a9a9a;
+	 border-right: 1px solid #9a9a9a;
+	 -webkit-transform: rotate(45deg);
+	 -ms-transform: rotate(45deg);
+	 -moz-transform: rotate(45deg);
+	 -o-transform: rotate(45deg);
+	}
+
+/* Changing the color of the arrow on hover */
+.main_nav .nav>.dropdown>a:hover::after, .nav>.dropdown:hover>a::after {
+	border-color: #999;
+}
+
+.main_nav .nav ul {
+	position: relative;
+	position: absolute;
+	left: -9999px;
+	display: block;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+.main_nav .nav ul {
+	position: relative;
+	position: absolute;
+	left: -9999px;
+	display: block;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+/* Level 1 submenus */
+.main_nav .nav>li>ul {
+	padding-top: 0px;
+	z-index: 99;
+	border-top: 1px solid #c9c9c9;
+	top: 34px;
+}
+
+/* Making the level 1 submenu to appear on hover */
+.main_nav .nav>li:hover>ul {
+	left: -1px;
+}
+
+/* Level 2+ submenus */
+.main_nav .nav ul ul {
+	left: -9999px;
+	top: 0px;
+	z-index: 999;
+}
+
+/* Making the level 2+ submenu to appear on hover */
+.main_nav .nav ul>li:hover>ul {
+	left: 120px;
+	top: -1px;
+}
+
+/* The submenu link containers */
+.main_nav .nav ul li {
+	position: relative;
+	display: block;
+	border-left: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+
+	/* Creating the slide effect. The list elements which contain the links have 0 height. On hover, they will expand */
+	height: 0px;
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+	-ms-transition: height .3s;
+}
+
+/* Expanding the list elements which contain the links */
+.main_nav .nav li:hover>ul>li {
+	height: 25px;
+}
+
+.main_nav .nav ul li:hover>ul>li:first-child {
+	height: 26px;
+}
+
+/* The links of the submenus */
+.main_nav .nav ul li a {
+	/* Layout */
+	display: block;
+	width: 150px;
+	padding: 6px 8px 6px 14px;
+	border-bottom: 1px solid #e1e1e1;
+
+	/* Typography */
+	font-size: 12px;
+	color: #a6a6a6;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	
+	/* Background & effects */
+	background: #fff;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-ms-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s;
+}
+
+/* The hover state of the links */
+.main_nav .nav ul li>a:hover, .nav ul li:hover>a {
+	    background: #5A5959;
+    color: #FFFFFF;
+}
+
+.main_nav .nav ul ul>li:first-child>a {
+	border-top: 1px solid #c1c1c1;
+}
+
+.main_nav .nav ul>li:last-child>a {
+	border-bottom: 1px solid #c1c1c1;
+}
+
+
+/* The arrow indicating a level 2+ submenu */
+.main_nav .nav ul>.dropdown>a::after {
+	content: "";
+	 position: absolute;
+	 top: 10px;
+	 right: 8px;
+	 width: 4px;
+	 height: 4px;
+	 border-bottom: 1px solid #a6a6a6;
+	 border-right: 1px solid #a6a6a6;
+	 -webkit-transform: rotate(-45deg);
+	 -ms-transform: rotate(-45deg);
+	 -moz-transform: rotate(-45deg);
+	 -o-transform: rotate(-45deg);
+}
+
+.main_nav .nav ul>.dropdown:hover>a::after, .nav ul>.dropdown>a:hover::after {
+	border-color: #a1a1a1;
+}
+	
+/* End main nav*/
+
+/* We remove the margin, padding, and list style of UL and LI components */
+#cssmenu ul, #cssmenu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 41px;
+}
+ 
+/* We float the li list to the left and apply background color and border right white and set the height to 25px. Note you can ignore the height if you do not want
+*/
+#cssmenu ul li{
+    background-color:#484A47;
+    border-right:solid 1px white;
+    padding: 16px 3px;
+}
+ 
+/* We apply the background hover color when user hover the mouse over of the li component */
+#cssmenu ul li:hover{
+    position:relative;
+}
+ 
+/* We apply the link style */
+#cssmenu ul li a{
+    padding:0px 20px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+ 
+/**** SECOND LEVEL MENU ****/
+/* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+#cssmenu ul li .lang-scroll{
+    position:absolute;
+    display:none;
+    margin-top: 8px;
+    overflow-y: scroll;
+    height: 138px;
+       
+}
+#cssmenu ul li ul{
+    position:absolute;
+    display:none;
+    margin-top: 8px;
+       
+}
+ 
+ .lang-height{
+ 	 overflow-y: scroll;
+    height: 250px;
+ }
+/* When user has hovered the li item, we show the ul list by applying display:block, note: 25px is the menu height.  */
+#cssmenu ul li:hover ul{
+        left: 0;
+    top: 32px;
+    display: block;
+    z-index: 999;
+}
+ 
+/* As the parent li has float:left property, we overwrite for the submenu (level 2) to float none (normal position)  */
+#cssmenu ul li ul li{
+    float:none;
+    width:150px;
+    background-color: #64655E;
+}
+ 
+/* We change the background color for the level 2 submenu when hovering the menu */
+#cssmenu ul li:hover ul li:hover{
+}
+ 
+/* We style the color of level 2 links */
+#cssmenu ul li ul li a{
+    color: #CECBCB;
+    display: inline-block;
+    width: 120px;
+    font-size: 11px;
+}
+ 
+/**** THIRD LEVEL MENU ****/
+/* We need to hide the 3rd menu, when hovering the first level menu */
+#cssmenu ul li:hover ul li ul{
+    position:absolute;
+    display:none;
+}
+ 
+/* We show the third level menu only when they hover the second level menu parent */
+#cssmenu ul li:hover ul li:hover ul{
+    display:block;
+    left:150px;
+    top:0;
+}
+ 
+/* We change the background color for the level 3 submenu*/
+#cssmenu ul li:hover ul li:hover ul li{
+    background:#86d3fa;
+}
+ 
+/* We change the background color for the level 3 submenu when hovering the menu */
+#cssmenu ul li:hover ul li:hover ul li:hover{
+    background:#358ebc;
+}
+ 
+/* We change the level 3 link color */
+#cssmenu ul li:hover ul li:hover ul li a{
+    color:#ffffff;
+}
+ 
+/* Clear float */
+.clear{
+    clear:both;
+}
+.active {
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.active:hover {
+  background-color: #ffffff;
+  color: black;
+}
+/* End themes nav */
+	
+.accounts {
+    float: left;
+    padding-top: 0px;
+    width: 48%;
+}
+
+.clear-fix {
+    height: 32px;
+}
+.savings{
+	float: right;
+    padding-top: 0px;
+    width: 48%;
+}
+.savings h3{
+	text-align: center;
+    color: white;
+}
+.accounts h3{
+	text-align: center;
+    color: white;
+}
+.Accounts_table{
+	    height: 351px;
+}
+.New_calender {
+    padding: 30px;
+}
+.Savings_table{
+	float:right;
+	width: 48%;
+	background: rgba(107, 116, 119, 0.15);
+    margin-top: 6px;
+}
+.font1{
+	font-family: Arial, Helvetica, sans-serif;
+    color: #676565;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer{
+	display: inline-block;
+    width: 100%;
+    /* background: rgb(82, 82, 82); */
+    margin-top: 100px;
+    bottom: 0px;
+}
+.footer1{
+	padding: 18px 0px;
+	float:left;
+}
+.footer1 a{ 
+	padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7em;
+}
+.content{
+	width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    float: inherit;
+    box-shadow: 0px 0px 3px 0px #988787;
+}
+/* calender */
+.myform-control {
+    display: block;
+    width: 100%;
+    height: 21px;
+    padding: 7px 17px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.myform-control {
+    display: block;
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top: 7px;
+}
+.Flexi_deposit{
+	    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    display: table;
+}
+.header_customer h3{
+	font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    font-weight: 600;
+    margin: 0;
+    color: #1163a5;
+}
+.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
+    background-image: none;
+}
+.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+b, strong {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.f_deposit_btn tr td{
+	    padding: 9px 22px;
+	
+}
+/* Edit Profile img */
+ .img_pro{
+    width: 187px;
+    height: 187px;
+    border: 3px solid;
+   }
+  /* End Edit Profile img */
+  
+  /* forgot pw */
+  .fpw{
+    transition: all 0.5s ease;
+    background: #FFFFFF url(/resources/images/8bcLQqF.png) no-repeat;
+    border: 1px solid #c8c8c8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 100%;
+    border-radius: 3px;
+}
+.form-control, .form-control:focus {
+    box-shadow: none;
+    height:24px;
+    padding: 0 5px;
+}
+.form-control, .input-group .btn, .input-group .form-control, .input-group .input-group-addon, [class*=input-group-] .btn, [class*=input-group-] .form-control, [class*=input-group-] .input-group-addon {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-clip: padding-box;
+}
+.header_customer {
+    background: #efefef;
+    border-radius: 0!important;
+    padding: 15px 12px;
+}
+label {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(76, 76, 76, 0.73) !important;
+  border: none;
+  color: #FFFFFF;
+  /* text-align: center; */
+  font-size: 20px;
+  padding: 6px;
+  width:130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* forgot pw end */
+/* pw changed */
+
+.success_msg {
+    float: left;
+    width: 100%;
+}
+/* pw change end */
+/* user category */
+
+.add-category {
+    float: left;
+    width: 100%;
+}
+
+/* end user category */
+/* add customer*/
+/* .add-customer {
+    width: 1000px;
+    margin: 0px auto;
+    background: #FFF;
+    padding: 33px;
+} */
+
+/* .add-customer-table {
+    float: left;
+    width: 48%;
+} */
+.add-customer-table2 {
+    float: left;
+    width: 100%;
+}
+.save-back{
+		
+	float: left;
+    width: 100%;
+}
+.add-personal-details {
+    float: left;
+    width: 100%;
+    display: inline;
+}
+.edit-bank-password {
+	 width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    background-color: #FFF;
+    display:table;
+}
+.fd-list{
+	 width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    background-color: #FFF;
+}
+.fd-list-table {
+    padding: 30px;
+}
+.saved-customer {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    background-color: #FFF;
+    padding: 30px;
+}
+/* end add customer */
+/* List Of Rates */
+.list-of-rates-table {
+  	width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    display: table;
+    padding:30px;
+}
+.list-of-rates{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border: 1px solid #dfe8f1;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    background: #FFF;
+    display: inline-block;
+}
+.set-rate{
+	width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    display: table;
+}
+.set-rate-table {
+    float: left;
+    width: 100%;
+}
+.space-10 {
+    height: 33px;
+    display: table-row;
+}
+/* End List Of Rates */
+/* List of fs rates */
+.fd-rates-data {
+    float: left;
+    width: 100%;
+}
+.fd-rates-data-table {
+    float: left;
+    width: 100%;
+}
+/* End List of rates */
+/* FD List */
+	
+/*End FD List */
+/* Edit Bank Profile */
+
+.edit-bank-profile {
+    width: 100%;
+    float: left;
+}
+/* End Bank Profile */
+/* Bank success*/
+
+.update-bank-success {
+       width: 1000px;
+    margin: 0px auto;
+    background-color: #FFF;
+    padding: 30px;
+}
+.update-bank-success-table {
+    margin: 0px auto;
+    background-color: #FFF;
+    padding: 30px;
+}
+/* End bank success*/
+/*User */
+.user-confirm-page,.user-confirm-page-success {
+       width: 1000px;
+    margin: 0px auto;
+    background-color: #FFF;
+    padding: 30px;
+}
+/*End User */
+/* customer edit password */
+
+.customer-edit-password {
+    float: left;
+    width: 100%;
+    margin-top:30px;
+    margin-bottom: 190px;
+}
+
+/* End Customer edit password */
+/* Customer app list */
+.customer-approval-list, .approval-customer-confirm {
+    	width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    display: table;
+}
+.customer-app-list-table, .approval-customer-confirm-table {
+    padding: 30px;
+}
+.confirm-edit-am-profile {
+    background: #FFF;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px;
+}
+/* End Customer app list */
+/* fd success */
+.updated-fd-success {
+    margin: 0px auto;
+    width: 1000px;
+    background: #FFF;
+    padding: 30px;
+}
+/* End Fd Success */
+
+
+/* Edit AM Profile */
+.edit-am-profile {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: #FFF;
+}
+.updated-am-success{
+	margin: 0px auto;
+    width: 1000px;
+    background: #FFF;
+    padding: 30px;
+}
+.edit-am-pwd {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 190px;
+}
+/* End Edit AM Profile */
+/* Role Page */
+
+.role-page {
+        width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #03A9F4;
+    margin: 0px auto;
+    display: table;
+        padding: 30px;
+}
+/* End Role Page */
+/* Bank emp list */
+.bank-emp-list {
+     width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #bcbaba;
+    margin: 0px auto;
+    display: table;
+    padding: 30px;
+        border: 1px solid #cbe6fb;
+}
+.bank-emp-list-table {
+    float: left;
+    width: 100%;
+}
+.bankemp_list {
+    width: 100%;
+    float: left;
+}
+/* End Emp list */
+
+/* Edit Admin Page */
+.edit-admin-profile {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #bcbaba;
+    margin: 0px auto;
+    display: table;
+    padding: 30px;
+}
+.edit-admin-pwd {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px #bcbaba;
+    margin: 0px auto;
+    display: table;
+    padding: 30px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/* End Edit Admin Page */

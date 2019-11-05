@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="signinLayout"
+		template="/WEB-INF/pages/layouts/signinSignout/signinLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="signinheader"
+			value="/WEB-INF/pages/layouts/signinSignout/signinHeader.jsp" />
+		<put-attribute name="signinmenu"
+			value="/WEB-INF/pages/layouts/signinSignout/signinMenu.jsp" />
+		<put-attribute name="signinbody" value="" />
+		<put-attribute name="signinfooter"
+			value="/WEB-INF/pages/layouts/signinSignout/signinFooter.jsp" />
+	</definition>
+
+	<definition name="selectLoggedInRoleLayout"
+		template="/WEB-INF/pages/layouts/selectLoggedInRole/selectLoggedInRoleLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="selectLoggedInRoleHeader"
+			value="/WEB-INF/pages/layouts/selectLoggedInRole/selectLoggedInRoleHeader.jsp" />
+		<put-attribute name="selectLoggedInRoleMenu"
+			value="/WEB-INF/pages/layouts/signinSignout/signinMenu.jsp" />
+		<put-attribute name="selectLoggedInRoleBody" value="" />
+		<put-attribute name="selectLoggedInRoleFooter"
+			value="/WEB-INF/pages/layouts/signinSignout/signinFooter.jsp" />
+	</definition>
+
+
+	<definition name="commonLayout"
+		template="/WEB-INF/pages/layouts/common/commonLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="commonHeader"
+			value="/WEB-INF/pages/layouts/common/commonHeader.jsp" />
+		<put-attribute name="commonMenuNavbar"
+			value="/WEB-INF/pages/layouts/common/commonMenuNavbar.jsp" />
+		<put-attribute name="commonMenu"
+			value="/WEB-INF/pages/layouts/signinSignout/signinMenu.jsp" />
+		<put-attribute name="commonBody" value="" />
+		<put-attribute name="commonFooter"
+			value="/WEB-INF/pages/layouts/signinSignout/signinFooter.jsp" />
+	</definition>
+
+	<definition name="adminLayout"
+		template="/WEB-INF/pages/layouts/admin/adminLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="adminheader"
+			value="/WEB-INF/pages/layouts/admin/adminHeader.jsp" />
+		<put-attribute name="adminmenu"
+			value="/WEB-INF/pages/layouts/admin/adminMenu.jsp" />
+		<put-attribute name="adminbody" value="" />
+		<put-attribute name="adminfooter"
+			value="/WEB-INF/pages/layouts/admin/adminFooter.jsp" />
+	</definition>
+
+	<!--   WARNNING :  DON'T PUT BODY  IN THIS  FILE GO TO view-body-tiles.xml file         - -->
+</tiles-definitions>

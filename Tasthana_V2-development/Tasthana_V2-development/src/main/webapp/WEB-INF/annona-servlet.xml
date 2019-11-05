@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd         
+						http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd         
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd         
+						http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd         
+						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+						http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+						http://www.springframework.org/schema/mvc  http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+						http://www.springframework.org/schema/security 	http://www.springframework.org/schema/security/spring-security-3.2.xsd
+						http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+
+
+
+
+
+
+	<!-- This will automatically locate any and all property files you have 
+		within your classpath, provided they fall under the META-INF/spring directory. 
+		The located property files are parsed and their values can then be used within 
+		application context files in the form of ${propertyKey}. -->
+	<context:property-placeholder
+		location="classpath*:META-INF/Spring/*.properties" />
+	<!-- Turn on AspectJ @Configurable support. As a result, any time you instantiate 
+		an object, Spring will attempt to perform dependency injection on that object. 
+		This occurs for instantiation via the "new" keyword, as well as via reflection. 
+		This is possible because AspectJ is used to "weave" Roo-based applications 
+		at compile time. In effect this feature allows dependency injection of any 
+		object at all in your system, which is a very useful feature (without @Configurable 
+		you'd only be able to dependency inject objects acquired from Spring or subsequently 
+		presented to a specific Spring dependency injection method). Roo applications 
+		use this useful feature in a number of areas, such as @PersistenceContext 
+		injection into entities. -->
+
+	<context:spring-configured />
+	<!-- This declaration will cause Spring to locate every @Component, @Repository 
+		and @Service in your application. In practical terms this allows you to write 
+		a POJO and then simply annotate the new POJO as an @Service and Spring will 
+		automatically detect, instantiate and dependency inject your service at startup 
+		time. Importantly, you can then also have your new service injected into 
+		any other class that requires it simply by declaring a field for your service 
+		inside the relying class and Spring will inject it. Note that two exclude 
+		filters are declared. The first ensures that Spring doesn't spend time introspecting 
+		Roo-specific ITD aspects. The second ensures Roo doesn't instantiate your 
+		@Controller classes, as these should be instantiated by a web tier application 
+		context. Refer to web.xml for more details about the web tier application 
+		context setup services. Furthermore, this turns on @Autowired, @PostConstruct 
+		etc support. These annotations allow you to use common Spring and Java Enterprise 
+		Edition annotations in your classes without needing to do any special configuration. 
+		The most commonly used annotation is @Autowired, which instructs Spring to 
+		dependency inject an object into your class. -->
+	<context:component-scan base-package="annona">
+
+
+
+	</context:component-scan>
+
+	<context:annotation-config />
+
+	<mvc:annotation-driven />
+
+	<!-- Used to handle back button on browsers -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**/*" />
+			<bean id="webContentInterceptor"
+				class="org.springframework.web.servlet.mvc.WebContentInterceptor">
+				<property name="cacheSeconds" value="0" />
+				<property name="useExpiresHeader" value="true" />
+				<property name="useCacheControlHeader" value="true" />
+				<property name="useCacheControlNoStore" value="true" />
+			</bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+
+	<mvc:resources mapping="/images/**" location="/images/" />
+
+	<mvc:resources mapping="/resources/**"
+		location="/resources/" />
+
+	<!-- Datasource Configuration -->
+	<bean class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close" id="dataSource">
+		<property name="driverClassName"
+			value="${database.driverClassName}" />
+		<property name="url" value="${database.url}" />
+		<property name="username" value="${database.username}" />
+		<property name="password" value="${database.password}" />
+
+	</bean>
+
+	<!-- Transaction Configuration -->
+
+	<bean class="org.springframework.orm.jpa.JpaTransactionManager"
+		id="transactionManager">
+		<property name="entityManagerFactory"
+			ref="entityManagerFactory" />
+	</bean>
+
+	<bean
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+		id="entityManagerFactory">
+		<property name="persistenceUnitName" value="persistenceUnit" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<tx:annotation-driven />
+
+	<!-- <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"> 
+		<property name="cacheSeconds" value="0" /> </bean> -->
+
+
+	<!-- Tiles Configuration -->
+
+	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/> 
+		<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer"> 
+		<property name="definitions"> <list> <value>/WEB-INF/tiles.xml</value> <value>/WEB-INF/view-body-tiles.xml</value> 
+		</list> </property> </bean> -->
+
+	<!-- Tiles Configuration -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass">
+			<value>
+				org.springframework.web.servlet.view.tiles2.TilesView
+			</value>
+		</property>
+	</bean>
+	<bean id="tilesConfigurer"
+		class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles.xml</value>
+				<value>/WEB-INF/view-body-tiles.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- Configure the multipart resolver -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="20000000" />
+		<!-- <property name="uploadTempDir" ref="uploadDirResource" /> -->
+	</bean>
+	<bean id="uploadDirResource"
+		class="org.springframework.core.io.FileSystemResource">
+		<constructor-arg>
+			<value>/</value>
+		</constructor-arg>
+	</bean>
+
+	<!-- Languages -->
+
+	<bean id="themeSource"
+		class="org.springframework.ui.context.support.ResourceBundleThemeSource">
+		<property name="basenamePrefix" value="theme-" />
+	</bean>
+
+	<bean id="themeChangeInterceptor"
+		class="org.springframework.web.servlet.theme.ThemeChangeInterceptor">
+		<property name="paramName" value="theme" />
+	</bean>
+	<bean id="themeResolver"
+		class="org.springframework.web.servlet.theme.CookieThemeResolver">
+		<!-- <property name="defaultThemeName" value="default" /> -->
+	</bean>
+
+	<bean id="handlerMapping"
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="themeChangeInterceptor" />
+				<ref bean="localeChangeInterceptor" />
+			</list>
+		</property>
+	</bean>
+
+	<!-- <bean id="bankPaymentEventPublisher" class="annona.event.BankPaymentEventPublisher"> 
+		</bean> -->
+	<!-- <bean id="BankPaymentEventListner" class="annona.event.BankPaymentEventListner"> 
+		</bean> -->
+	<bean id="applicationEventListner"
+		class="annona.event.ApplicationEventListner">
+	</bean>
+
+
+
+	<!-- Mail Configuration -->
+
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username"
+			value="annonaitsolutionspvtltd@gmail.com" />
+		<property name="password" value="Riddhi@0904" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.gmail.com</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- Declare a transaction manager -->
+	<!-- isFullyAuthenticated() -->
+
+	<security:http auto-config="true" use-expressions="true"
+		entry-point-ref="authenticationEntryPoint"
+		disable-url-rewriting="true">
+		<security:access-denied-handler
+			error-page="/auth/denied" />
+		<security:intercept-url pattern="/auth/login"
+			access="permitAll" />
+		<security:intercept-url pattern="/users/**"
+			access="hasRole('ROLE_USER')" />
+
+		<security:intercept-url
+			pattern="/bnkEmp/findCustomerById"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/findCustomer"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/convertDeposit"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+
+		<security:intercept-url
+			pattern="/bnkEmp/compareMaturity"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getDeathCertificate"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/loginDateForJsp"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_APPROVALMNG','ROLE_VP','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/panCardValidation"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getTenureForReverseEMI"
+			access="hasAnyRole('ROLE_USER','ROLE_BANKEMP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getAmountFromSlab"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_BANKEMP','ROLE_VP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getAmountToSlab"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_BANKEMP','ROLE_VP')" />
+
+		<security:intercept-url
+			pattern="/users/getLooseAmountForWithdraw"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_BANKEMP','ROLE_VP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getLooseAmountForWithdraw"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_BANKEMP','ROLE_VP')" />
+		<security:intercept-url
+			pattern="/bnkEmp/getDurations"
+			access="hasAnyRole('ROLE_USER','ROLE_ADMIN','ROLE_BANKEMP','ROLE_VP')" />
+		<security:intercept-url pattern="/admin/**"
+			access="hasRole('ROLE_ADMIN')" />
+		<security:intercept-url pattern="/bnkEmp/**"
+			access="hasRole('ROLE_BANKEMP')" />
+		<security:intercept-url pattern="/appMng/**"
+			access="hasRole('ROLE_APPROVALMNG')" />
+		<security:intercept-url pattern="/vp/**"
+			access="hasRole('ROLE_VP')" />
+
+		<security:form-login login-page="/auth/login"
+			authentication-failure-url="/auth/login?error=1"
+			default-target-url="/main/default" />
+
+		<security:logout invalidate-session="true"
+			delete-cookies="JSESSIONID" logout-success-url="/auth/logout" />
+
+	</security:http>
+
+	<security:authentication-manager>
+		<security:authentication-provider
+			user-service-ref="customUserDetailsService">
+			<!-- <security:password-encoder hash="md5"/> -->
+		</security:authentication-provider>
+	</security:authentication-manager>
+	<!-- <bean id="accessDeniedHandler" class="annona.services.MyAccessDeniedHandler"> -->
+	<!-- <property name="accessDeniedUrl" value="denied" /> -->
+	<!-- </bean> -->
+	<!-- I18N and Localization -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basename" value="classpath:messages" />
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+
+	<bean id="localeChangeInterceptor"
+		class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+		<property name="paramName" value="lang" />
+	</bean>
+
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<!-- <property name="defaultLocale" value="en" /> -->
+	</bean>
+	<!-- See Spring-Security Reference 5.4.1 for more info -->
+	<bean id="authenticationEntryPoint"
+		class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint"
+		p:loginFormUrl="/auth/login" />
+
+	<!-- =========== -->
+	<!-- <util:list id="authenticationProviders"> <ref bean="userDetailsAuthenticationProviderImpl" 
+		/> </util:list> <bean id="userDetailsAuthenticationProviderImpl" name="userDetailsAuthenticationProviderImpl" 
+		class="annona.services.UserDetailsAuthenticationProviderImpl" /> This bean 
+		MUST have this exact ID to be the default authenticationManager! This is 
+		required prior Spring 3.1, as authentication-manager-ref is not present in 
+		sec:http element before! <bean id="org.springframework.security.authenticationManager" 
+		name="authenticationManager" class="org.springframework.security.authentication.ProviderManager" 
+		c:providers-ref="authenticationProviders" /> <bean id="usernamePasswordAuthenticationFilter" 
+		class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter" 
+		p:authenticationManager-ref="authenticationManager" p:authenticationDetailsSource-ref="webAuthenticationDetailsSourceImpl" 
+		/> <sec:http authentication-manager-ref="authenticationManager"> <sec:custom-filter 
+		position="FORM_LOGIN_FILTER" ref="usernamePasswordAuthenticationFilter" /> 
+		</sec:http> -->
+</beans>

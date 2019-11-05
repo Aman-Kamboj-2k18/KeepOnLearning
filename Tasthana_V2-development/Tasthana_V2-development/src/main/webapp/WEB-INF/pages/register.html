@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="us-en">
+	<head>	
+		<title> </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="registration.css">
+	
+	</head>
+	
+<body>
+	
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">Tasthana <small>Admin Registration</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+   <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="panel panel-login">
+	   <div class="panel-heading">
+          <div class="row">
+            <div class="col-xs-6 tabs">
+              <a href="#" class="active" id="login-form-link"><div class="login">LOGIN</div></a>
+            </div>
+            <div class="col-xs-6 tabs">
+              <a href="#" id="register-form-link"><div class="register">REGISTER</div></a>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="login-form" action="#" method="post" role="form" onsubmit="return validation()" style="display: block;">
+                <h2>LOGIN</h2>
+                  <div class="form-group">
+                    <input type="text" autocomplete="off" name="name" id="userName" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" autocomplete="off" name="pass" id="password" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+				 
+				    <div class="form-group">
+						<select class="form-control" id="sel1">
+							<option class="active">Organization</option>
+							<option>SBI</option>
+							<option>ICICI</option>
+							<option>HDFC</option>
+						</select>
+					</div>
+                  <div class="col-xs-6 form-group pull-left checkbox">
+                    <input id="checkbox1" type="checkbox" name="remember">
+                    <label for="checkbox1">Remember Me</label>   <br>
+					<a href="#" class="forgot-password">Forgot the password?</a>  
+					
+                  </div>
+                  <div class="col-xs-6 form-group pull-right">     
+                        <input type="submit" name="sub" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                  </div>
+              </form>
+              <form id="register-form" action="#" method="post" role="form" style="display: none;">
+                <h2>REGISTER</h2>
+                  <div class="form-group">
+                    <input type="text" autocomplete="off" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" autocomplete="off" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" autocomplete="off" name="password1" id="password1" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+				  <div class="form-group">
+                    <input type="password" autocomplete="off" name="password2" id="password2" tabindex="2" class="form-control" placeholder="Re-Enter Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" autocomplete="off" name="phone" id="phone" tabindex="2" class="form-control" placeholder="Enter Phone Number">
+                  </div>
+				<div class="form-group">
+                    <input type="password" autocomplete="off" name="pass" id="password" tabindex="2" class="form-control" placeholder="Enter Organization">
+                </div>
+				
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h6 style="font-size:14px;font-weight:100;color: #fff;">Developed by <a href="https://annona.in/" style="color: #fff;" target="_blank">Annona IT Solutions Pvt. Ltd.</a></h6>
+        </div>   
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+			$(function() {
+				$('#login-form-link').click(function(e) {
+					$("#login-form").delay(100).fadeIn(100);
+					$("#register-form").fadeOut(100);
+					$('#register-form-link').removeClass('active');
+					$(this).addClass('active');
+					e.preventDefault();
+				});
+				$('#register-form-link').click(function(e) {
+					$("#register-form").delay(100).fadeIn(100);
+					$("#login-form").fadeOut(100);
+					$('#login-form-link').removeClass('active');
+					$(this).addClass('active');
+					e.preventDefault();
+				});
+
+			});
+
+		</script>
+	</body>
+	
+</html>

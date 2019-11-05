@@ -1,0 +1,82 @@
+.error {
+    border-color: #FF8383;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #FF8383;
+    outline: 0 none;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+.valid-visa {
+    background: url("../images/card-visa.gif") no-repeat scroll 340px center #fff;
+}
+
+.valid-american-express {
+    background: url("../images/card-amex.gif") no-repeat scroll 318px center #fff;
+}
+
+.valid-discover {
+    background: url("../images/card-discover.gif") no-repeat scroll 340px center #fff;
+}
+
+.valid-master-card {
+    background: url("../images/card-mastercard.gif") no-repeat scroll 340px center #fff;
+}
+
+.valid-jcb-card {
+    background: url("../images/card-jcb.gif") no-repeat scroll 340px center #fff;
+}
+
+.valid-dinners-card {
+    background: url("../images/card-diners.gif") no-repeat scroll 340px center #fff;
+}
+
+.valid-invalid-card {
+    background: url("../images/rsz_invalid.png") no-repeat scroll 340px center #fff;
+}
+
+.cards {
+    overflow: hidden;
+}
+.cards li {
+   background-image: url("../images/card_logos.png");
+    background-position: 0 0;
+    float: left;
+    height: 32px;
+    margin-left: -8px;
+    margin-right: 40px;
+    text-indent: -9999px;
+    transition: all 0.2s ease 0s;
+    width: 51px;
+}
+.cards li:last-child {
+    margin-right: 0;
+}
+.cards .visa_electron {
+    background-position: 204px 0;
+}
+.cards .mastercard {
+    background-position: 153px 0;
+}
+.cards .maestro {
+    background-position: 102px 0;
+}
+.cards .discover {
+    background-position: 51px 0;
+}
+.cards .visa.off {
+    background-position: 0 32px;
+}
+.cards .visa_electron.off {
+    background-position: 204px 32px;
+}
+.cards .mastercard.off {
+    background-position: 153px 32px;
+}
+.cards .maestro.off {
+    background-position: 102px 32px;
+}
+.cards .discover.off {
+    background-position: 51px 32px;
+}

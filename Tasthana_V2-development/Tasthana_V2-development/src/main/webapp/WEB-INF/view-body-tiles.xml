@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="customerSuspendFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/customerSuspendFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendCustomerFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendCustomerConfrimForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerConfrimForAdmin.jsp" />
+	</definition>
+
+	<definition name="bankEmpSuspendFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendFromAdmin.jsp" />
+	</definition>
+
+	<definition name="searchBankEmpForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/searchBankEmpForAdmin.jsp" />
+	</definition>
+	<definition name="suspendBankEmpFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendBankEmpFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendBankEmpConfrimFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendBankEmpConfrimFromAdmin.jsp" />
+	</definition>
+	<definition name="customerSuspendedListForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/customerSuspendedList.jsp" />
+	</definition>
+
+	<definition name="approverManagerSuspend"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approverManagerSuspend.jsp" />
+	</definition>
+	<definition name="searchApproverManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/searchApproverManager.jsp" />
+	</definition>
+	<definition name="suspendApproverManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManager.jsp" />
+	</definition>
+	<definition name="suspendApproverManagaerConfrim"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManagaerConfrim.jsp" />
+	</definition>
+
+	<definition name="approverManagerSuspendList"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approverManagerSuspendList.jsp" />
+	</definition>
+	<definition name="approveSuspendApprovalManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approveSuspendApprovalManager.jsp" />
+	</definition>
+	<definition name="bankEmpSuspendApproval"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendApproval.jsp" />
+	</definition>
+	<definition name="suspendEmpConfrim" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendEmpConfrim.jsp" />
+	</definition>
+	<definition name="suspendApproverManagerConfrim"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManagerConfrim.jsp" />
+	</definition>
+
+	<definition name="bankEmpSuspendList" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendList.jsp" />
+	</definition>
+
+	<definition name="updateSuccessPage" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/updateSuccessPage.jsp" />
+	</definition>
+
+	<definition name="endUserList" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/endUserList.jsp" />
+	</definition>
+
+	<definition name="addCountryForDTAA" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/addCountryForDTAA.jsp" />
+	</definition>
+
+
+	<definition name="reverseEmiFixedAmountForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/reverseEmiFixedAmountBankEmp.jsp" />
+	</definition>
+	<definition name="reverseEmiForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/reverseEmiForBankEmp.jsp" />
+	</definition>
+
+	<definition name="confirmReverseEmiFixedAmountForBank"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmReverseEmiFixedAmountForBank.jsp" />
+	</definition>
+
+	<definition name="confirmReverseEmiForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmReverseEmiForBnakEmp.jsp" />
+	</definition>
+
+
+
+
+
+
+	<definition name="addCustomer" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addCustomer.jsp" />
+	</definition>
+	<definition name="customerConfirm" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerConfirm.jsp" />
+	</definition>
+
+	<definition name="customerList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerList.jsp" />
+	</definition>
+
+
+	<definition name="fdListBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdListBank.jsp" />
+	</definition>
+
+	<definition name="fdApprovedList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdApprovedList.jsp" />
+	</definition>
+
+
+	<definition name="bankclosingFDList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/closingFDList.jsp" />
+	</definition>
+
+	<definition name="consolidatedSummary"
+		extends="commonLayout">
+		<put-attribute name="title" value="Common Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/consolidatedSummary.jsp" />
+	</definition>
+
+
+	<definition name="getConfirmFixedDepositForm"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/confirmFixedDepositForm.jsp" />
+	</definition>
+
+
+
+
+
+	<definition name="formSubmission" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/formSubmission.jsp" />
+	</definition>
+	<definition name="uploadFile" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/uploadFile.jsp" />
+	</definition>
+
+
+	<definition name="customerSearchForFormSubmission"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerSearchForFormSubmission.jsp" />
+	</definition>
+
+	<definition name="viewDepositBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewDeposit.jsp" />
+	</definition>
+
+	<definition name="bulkDeposit" extends="commonLayout">
+		<put-attribute name="title" value="Upload bulk deposits" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bulkDeposit.jsp" />
+	</definition>
+	<definition name="approveDepositConfrim"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveDepositConfirm.jsp" />
+	</definition>
+
+
+
+	<definition name="suspendCustomer" extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendCustomer.jsp" />
+	</definition>
+	<definition name="suspendCustomerConfirm"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendCustomerConfirm.jsp" />
+	</definition>
+
+
+
+
+
+
+
+
+	<definition name="editFDBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editFDBank.jsp" />
+	</definition>
+	<definition name="confirmEditFdBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmEditFdBank.jsp" />
+	</definition>
+
+	<definition name="distributonList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/distributonList.jsp" />
+	</definition>
+
+
+
+
+
+
+
+
+
+
+
+
+	<definition name="clearanceList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/clearanceList.jsp" />
+	</definition>
+
+
+
+
+
+	<definition name="modifiedDeposits" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/modifiedDeposits.jsp" />
+	</definition>
+
+	<definition name="showModificationList"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/showModificationList.jsp" />
+	</definition>
+
+	<definition name="compareWithModification"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/compareWithModification.jsp" />
+	</definition>
+
+
+
+
+	<definition name="calculator1" extends="commonLayout">
+
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/calculator.jsp" />
+	</definition>
+
+
+
+	<definition name="generic_error_Admin" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/error/generic_error_Admin.jsp" />
+	</definition>
+
+	<definition name="generic_error_Common"
+		extends="signinLayout">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/error/generic_error_Common.jsp" />
+	</definition>
+
+	<definition name="viewWithdrawPenalty"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="View Withdraw Penalty" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewWithdrawPenalty.jsp" />
+	</definition>
+
+
+
+
+
+
+
+
+
+
+	<definition name="productWiseConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title" value="Vice President Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/productWiseConfiguration.jsp" />
+	</definition>
+
+
+
+	<definition name="calculator" extends="commonLayout">
+		<put-attribute name="title" value="common  Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/calculator.jsp" />
+	</definition>
+
+	<definition name="createUser" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/createUser.jsp" />
+	</definition>
+
+	<definition name="manageMenuPreference"
+		extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/manageMenuPreference.jsp" />
+	</definition>
+
+	<definition name="manageRole" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/manageRole.jsp" />
+	</definition>
+
+	<definition name="createRole" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/createRole.jsp" />
+	</definition>
+
+	<definition name="selectRole" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/selectRole.jsp" />
+	</definition>
+	<definition name="savedRoleSuccess" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/savedSuccess.jsp" />
+	</definition>
+
+
+	<definition name="editRole" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/editRole.jsp" />
+	</definition>
+
+	<definition name="leftNavbarMenu" extends="adminLayout">
+		<put-attribute name="title" value="Left NavBar Menu" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/menu.jsp" />
+	</definition>
+
+	<definition name="leftNavbarSubMenu" extends="adminLayout">
+		<put-attribute name="title" value="Left NavBar Menu" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/subMenuItem.jsp" />
+	</definition>
+
+	<definition name="findAllLeftNavbarMenu"
+		extends="adminLayout">
+		<put-attribute name="title" value="Left NavBar Menu" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/findAllLeftNavbarMenu.jsp" />
+	</definition>
+
+
+
+	<definition name="selectLoggedInRole"
+		extends="selectLoggedInRoleLayout">
+		<put-attribute name="title" value="Select LoggedIn Role" />
+		<put-attribute name="selectLoggedInRoleBody"
+			value="/WEB-INF/pages/selectLoggedInRole/selectLoggedInRole.jsp" />
+	</definition>
+
+
+
+
+	<!-- Common -->
+
+	<definition name="clearanceList" extends="commonLayout">
+		<put-attribute name="title" value="Clearance Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/clearanceList.jsp" />
+	</definition>
+
+	<definition name="depositClearance" extends="commonLayout">
+		<put-attribute name="title" value="Clearance Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositClearance.jsp" />
+	</definition>
+
+	<definition name="customerSuspendFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/customerSuspendFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendCustomerFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendCustomerConfrimForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerConfrimForAdmin.jsp" />
+	</definition>
+
+	<definition name="bankEmpSuspendFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendFromAdmin.jsp" />
+	</definition>
+
+	<definition name="searchBankEmpForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/searchBankEmpForAdmin.jsp" />
+	</definition>
+	<definition name="suspendBankEmpFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendBankEmpFromAdmin.jsp" />
+	</definition>
+	<definition name="suspendBankEmpConfrimFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendBankEmpConfrimFromAdmin.jsp" />
+	</definition>
+	<definition name="customerSuspendedListForAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/customerSuspendedList.jsp" />
+	</definition>
+
+	<definition name="approverManagerSuspend"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approverManagerSuspend.jsp" />
+	</definition>
+	<definition name="searchApproverManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/searchApproverManager.jsp" />
+	</definition>
+	<definition name="suspendApproverManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManager.jsp" />
+	</definition>
+	<definition name="suspendApproverManagaerConfrim"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManagaerConfrim.jsp" />
+	</definition>
+
+	<definition name="approverManagerSuspendList"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approverManagerSuspendList.jsp" />
+	</definition>
+	<definition name="approveSuspendApprovalManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approveSuspendApprovalManager.jsp" />
+	</definition>
+	<definition name="bankEmpSuspendApproval"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendApproval.jsp" />
+	</definition>
+	<definition name="suspendEmpConfrim" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendEmpConfrim.jsp" />
+	</definition>
+	<definition name="suspendApproverManagerConfrim"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendApproverManagerConfrim.jsp" />
+	</definition>
+
+	<definition name="bankEmpSuspendList" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmpSuspendList.jsp" />
+	</definition>
+
+	<definition name="updateSuccessPage" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/updateSuccessPage.jsp" />
+	</definition>
+
+	<definition name="endUserList" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/endUserList.jsp" />
+	</definition>
+
+	<definition name="countryForDTAA" extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/dtaaCountryList.jsp" />
+	</definition>
+	
+	<definition name="addBranchFromAdmin" extends="adminLayout">
+		<put-attribute name="title" value="Add Branch Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/common/addBranch.jsp" />
+	</definition>
+
+	<definition name="addCountryForDTAA" extends="commonLayout">
+		<put-attribute name="title" value="Add Country" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addCountryForDTAA.jsp" />
+	</definition>
+	<!-- HomePage -->
+
+	<definition name="loginPage" extends="signinLayout">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/loginPage.jsp" />
+	</definition>
+	<definition name="welcome" extends="signinLayout">
+		<put-attribute name="title" value="Welcome Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/welcome.jsp" />
+	</definition>
+
+
+	<definition name="forgotPassword" extends="signinLayout">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/forgotPassword.jsp" />
+	</definition>
+	<definition name="newPassword" extends="signinLayout">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/newPassword.jsp" />
+	</definition>
+
+	<definition name="paswwordChanged" extends="signinLayout">
+		<put-attribute name="title" value="Login Page" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/paswwordChanged.jsp" />
+	</definition>
+
+	<definition name="loginChangePassword"
+		extends="signinLayout">
+		<put-attribute name="title"
+			value="Login Change Password" />
+		<put-attribute name="signinbody"
+			value="/WEB-INF/pages/loginChangePwd.jsp" />
+	</definition>
+
+	<!-- End of HomePage -->
+
+
+	<!-- Admin Section -->
+	<definition name="noDataFoundAdmin" extends="adminLayout">
+		<put-attribute name="title" value="Admin Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/noDataFound.jsp" />
+	</definition>
+
+	<definition name="admin" extends="adminLayout">
+		<put-attribute name="title" value="Admin Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/adminPage.jsp" />
+	</definition>
+
+	<definition name="editAdminProfile" extends="adminLayout">
+		<put-attribute name="title" value="Admin Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/editAdminProfile.jsp" />
+	</definition>
+
+	<definition name="confirmEditAdminProfile"
+		extends="adminLayout">
+		<put-attribute name="title" value="Admin Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/confirmEditAdminProfile.jsp" />
+	</definition>
+
+	<definition name="editAdminPWD" extends="adminLayout">
+		<put-attribute name="title" value="Admin Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/editAdminPWD.jsp" />
+	</definition>
+	<definition name="createUser" extends="adminLayout">
+		<put-attribute name="title" value="Create User Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/createUser.jsp" />
+	</definition>
+	<definition name="approvalManager" extends="adminLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approvalManager.jsp" />
+	</definition>
+	<definition name="bankEmployee" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmployee.jsp" />
+	</definition>
+	<definition name="vicePresident" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/vicePresident.jsp" />
+	</definition>
+	<definition name="savedUserSuccess" extends="adminLayout">
+		<put-attribute name="title" value="Saved Success Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/savedSuccess.jsp" />
+	</definition>
+
+	<definition name="selectRole" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/selectRole.jsp" />
+	</definition>
+	<definition name="approvalmanagerUpdate"
+		extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/approvalmanagerUpdate.jsp" />
+	</definition>
+	<definition name="bankEmployeeUpdate" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/bankEmployeeUpdate.jsp" />
+	</definition>
+	<definition name="updateAdminSuccess" extends="adminLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/updateSuccess.jsp" />
+	</definition>
+	<definition name="bankEmpList" extends="adminLayout">
+		<put-attribute name="title" value="Emp List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/listOfBankEmp.jsp" />
+	</definition>
+
+	<definition name="selectBankEmp" extends="adminLayout">
+		<put-attribute name="title" value="Emp List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/selectBankEmp.jsp" />
+	</definition>
+
+	<definition name="appMngList" extends="adminLayout">
+		<put-attribute name="title" value="Emp List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/appmanagerList.jsp" />
+	</definition>
+	<definition name="VPList" extends="adminLayout">
+		<put-attribute name="title" value="VP List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/VPList.jsp" />
+	</definition>
+	<definition name="selectApproveManager"
+		extends="adminLayout">
+		<put-attribute name="title" value="Emp List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/selectApproveManager.jsp" />
+	</definition>
+	<definition name="selectVP" extends="adminLayout">
+		<put-attribute name="title" value="VP List" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/selectVP.jsp" />
+	</definition>
+
+
+	<definition name="suspendBankEmpoyeeConfrim"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendBankEmpConfrimFromAdmin.jsp" />
+	</definition>
+
+	<definition name="suspendCustomerApproveFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerApprove.jsp" />
+	</definition>
+	<definition name="suspendCustomerConfrimFromAdmin"
+		extends="adminLayout">
+		<put-attribute name="title" value="Suspend Page" />
+		<put-attribute name="adminbody"
+			value="/WEB-INF/pages/admin/suspendCustomerConfrimForAdmin.jsp" />
+	</definition>
+
+
+
+	<definition name="reverseEmiFixedAmountForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/reverseEmiFixedAmountBankEmp.jsp" />
+	</definition>
+	<definition name="reverseEmiForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/reverseEmiForBankEmp.jsp" />
+	</definition>
+
+	<definition name="confirmReverseEmiFixedAmountForBank"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmReverseEmiFixedAmountForBank.jsp" />
+	</definition>
+
+	<definition name="confirmReverseEmiForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmReverseEmiForBnakEmp.jsp" />
+	</definition>
+
+	<definition name="addCustomer" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addCustomer.jsp" />
+	</definition>
+	<definition name="customerConfirm" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerConfirm.jsp" />
+	</definition>
+
+	<definition name="customerList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerList.jsp" />
+	</definition>
+
+
+	<definition name="fdListBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdListBank.jsp" />
+	</definition>
+
+	<definition name="fdApprovedList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdApprovedList.jsp" />
+	</definition>
+
+
+	<definition name="bankclosingFDList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/closingFDList.jsp" />
+	</definition>
+
+	<definition name="consolidatedSummary"
+		extends="commonLayout">
+		<put-attribute name="title" value="Common Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/consolidatedSummary.jsp" />
+	</definition>
+
+	<definition name="bankPayment" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bankPayment.jsp" />
+	</definition>
+
+
+	<definition name="formSubmission" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/formSubmission.jsp" />
+	</definition>
+	<definition name="uploadFile" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/uploadFile.jsp" />
+	</definition>
+
+
+	<definition name="customerSearchForFormSubmission"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerSearchForFormSubmission.jsp" />
+	</definition>
+	<definition name="customerListForFormSubmission"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerListForFormSubmission.jsp" />
+	</definition>
+
+
+	<definition name="viewDepositBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewDeposit.jsp" />
+	</definition>
+
+
+	<definition name="bulkDeposit" extends="commonLayout">
+		<put-attribute name="title" value="Upload bulk deposits" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bulkDeposit.jsp" />
+	</definition>
+
+
+	<definition name="approveDepositConfrim"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveDepositConfirm.jsp" />
+	</definition>
+
+
+	<definition name="suspendCustomer" extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendCustomer.jsp" />
+	</definition>
+	<definition name="suspendCustomerConfirm"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approval Manager Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendCustomerConfirm.jsp" />
+	</definition>
+
+
+	<definition name="editFDBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editFDBank.jsp" />
+	</definition>
+	<definition name="confirmEditFdBank" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmEditFdBank.jsp" />
+	</definition>
+
+
+	<definition name="suspendBankEmp" extends="commonLayout">
+		<put-attribute name="title" value="Suspend Bank Emp" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendBankEmp.jsp" />
+	</definition>
+	<definition name="suspendBankEmpConfirm"
+		extends="commonLayout">
+		<put-attribute name="title" value="Suspend Bank Emp" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/suspendBankEmpConfirm.jsp" />
+	</definition>
+
+
+
+
+	<definition name="newDeposit" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/newDeposit.jsp" />
+	</definition>
+
+	<definition name="depositProducts" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositProducts.jsp" />
+	</definition>
+
+	<definition name="applyDeposit" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/applyDeposit.jsp" />
+	</definition>
+
+
+	<!-- Common -->
+
+	<definition name="commonDashboard" extends="commonLayout">
+		<put-attribute name="title" value="Common Dashboard" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/commonMenu.jsp" />
+	</definition>
+
+	<definition name="addDurationSlab" extends="commonLayout">
+		<put-attribute name="title"
+			value="Add Duration for Interest" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addDuration.jsp" />
+	</definition>
+
+	<definition name="viewDurationSlab" extends="commonLayout">
+		<put-attribute name="title"
+			value="View Duration for Interest" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewDuration.jsp" />
+	</definition>
+
+	<definition name="addRates" extends="commonLayout">
+		<put-attribute name="title" value="Add Interest Rate" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addRates.jsp" />
+	</definition>
+
+	<definition name="viewRates" extends="commonLayout">
+		<put-attribute name="title" value="View Interest Rate" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewRate.jsp" />
+	</definition>
+
+	<definition name="successfullySaved" extends="commonLayout">
+		<put-attribute name="title"
+			value="Successfully Saved Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdSaved.jsp" />
+	</definition>
+
+	<definition name="dashboard" extends="commonLayout">
+		<put-attribute name="title" value="Home  Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/dashboard.jsp" />
+	</definition>
+
+	<definition name="addBranch" extends="commonLayout">
+		<put-attribute name="title" value="Add Branch Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addBranch.jsp" />
+	</definition>
+
+	<definition name="nriServiceBranch" extends="commonLayout">
+		<put-attribute name="title"
+			value="NRI Service Branch Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/nriServiceBranch.jsp" />
+	</definition>
+
+	<definition name="updateAMSuccess" extends="commonLayout">
+		<put-attribute name="title" value="Success Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/fdSaved.jsp" />
+	</definition>
+
+	<definition name="addCustomerCategory"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Add Customer Category Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addCustomerCategory.jsp" />
+	</definition>
+	<definition name="citizenAndCustomerCategory"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Citizen And Customer Category Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/citizenAndCustomerCategory.jsp" />
+	</definition>
+
+	<definition name="loginDateSaved" extends="commonLayout">
+		<put-attribute name="title" value="Login Date Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/loginDateSaved.jsp" />
+	</definition>
+
+	<definition name="loginDate" extends="commonLayout">
+		<put-attribute name="title" value="Login Date Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/loginDate.jsp" />
+	</definition>
+	<definition name="modeOfPayment" extends="commonLayout">
+		<put-attribute name="title" value="Mode Of Payment Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/modeOfPayment.jsp" />
+	</definition>
+
+	<definition name="editModeOfPayment" extends="commonLayout">
+		<put-attribute name="title" value="Mode Of Payment Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editModeOfPayment.jsp" />
+	</definition>
+
+	<definition name="roundOffOnMaturity" extends="commonLayout">
+		<put-attribute name="title"
+			value="Round Off On Maturity Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/roundOffOnMaturity.jsp" />
+	</definition>
+	<definition name="ledgerMapping" extends="commonLayout">
+		<put-attribute name="title" value="Ledger Mapping Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ledgerMapping.jsp" />
+	</definition>
+
+
+
+	<definition name="customerConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title" value="Vice President Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerConfiguration.jsp" />
+	</definition>
+	<definition name="confirmcustomerConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Confirm Customer Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmcustomerConfiguration.jsp" />
+	</definition>
+
+	<definition name="editCustomerConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Edit Customer Configuration  Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editCustomerConfiguration.jsp" />
+	</definition>
+
+	<definition name="currencyConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Currency Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/currencyConfiguration.jsp" />
+	</definition>
+	<definition name="holidayConfigurationStateWise"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Holiday Configuration  State Wise Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/stateHolidayConfiguration.jsp" />
+	</definition>
+	<definition name="holidayConfigurationBranchWise"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Holiday Configuration Branch Wise Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/holidayConfiguration.jsp" />
+	</definition>
+
+	<definition name="glConfiguration" extends="commonLayout">
+		<put-attribute name="title"
+			value="GL Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/glConfiguration.jsp" />
+	</definition>
+	<definition name="addProductWiseConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Add ProductWise Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/productWiseConfiguration.jsp" />
+	</definition>
+
+	<definition name="viewProductConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="View Product Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewProductConfiguration.jsp" />
+	</definition>
+	<definition name="editProductConfiguration"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Edit Product Configurationt Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editProductWiseConfiguration.jsp" />
+	</definition>
+
+	<definition name="sweepConfiguration" extends="commonLayout">
+		<put-attribute name="title"
+			value="Sweep Configuration Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/sweepConfiguration.jsp" />
+	</definition>
+
+	<definition name="addWithdrawPenalty" extends="commonLayout">
+		<put-attribute name="title"
+			value="Add Withdraw Penalty Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addWithdrawPenalty.jsp" />
+	</definition>
+
+	<definition name="noDataFound" extends="commonLayout">
+		<put-attribute name="title" value=" Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/noDataFound.jsp" />
+	</definition>
+
+	<definition name="countryForDTAA" extends="commonLayout">
+		<put-attribute name="title" value="Add Country Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/dtaaCountryList.jsp" />
+	</definition>
+
+
+
+	<definition name="dtaaCountryRates" extends="commonLayout">
+		<put-attribute name="title"
+			value="DTAA Country Rates Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/dtaaCountryRates.jsp" />
+	</definition>
+
+	<definition name="addDTAATaxRate" extends="commonLayout">
+		<put-attribute name="title"
+			value="Add DTAA Tax Rate Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/addDTAATaxRate.jsp" />
+	</definition>
+
+	<definition name="GSTDeduction" extends="commonLayout">
+		<put-attribute name="title" value="GST Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/gstDeduction.jsp" />
+	</definition>
+
+	<definition name="dayEndProcess" extends="commonLayout">
+		<put-attribute name="title" value="Day End Process Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/dayEndProcess.jsp" />
+	</definition>
+
+	<!-- Approval Manager -->
+	<definition name="customerApprovalList"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Customer Approval List Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerApprovalList.jsp" />
+	</definition>
+
+	<definition name="fdPendingList" extends="commonLayout">
+		<put-attribute name="title"
+			value="Deposit Pending Listr Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdPendingList.jsp" />
+	</definition>
+
+	<definition name="endUserListApr" extends="commonLayout">
+		<put-attribute name="title"
+			value="Bank Employee Active List Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/endUserList.jsp" />
+	</definition>
+
+	<definition name="bankEmpSuspend" extends="commonLayout">
+		<put-attribute name="title"
+			value="Bank Employee Suspend Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bankEmpSuspend.jsp" />
+	</definition>
+
+	<definition name="customerSuspend" extends="commonLayout">
+		<put-attribute name="title"
+			value="Customer Suspend Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerSuspend.jsp" />
+	</definition>
+
+	<definition name="searchBankEmp" extends="commonLayout">
+		<put-attribute name="title"
+			value="Search Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchBankEmp.jsp" />
+	</definition>
+
+
+	<definition name="approveCustomer" extends="commonLayout">
+		<put-attribute name="title"
+			value="Approve Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveCustomer.jsp" />
+	</definition>
+	<definition name="approveCustomerConfirm"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approve Customer Confirm  Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveCustomerConfirm.jsp" />
+	</definition>
+
+	<!-- =================================================Admin================== -->
+	<definition name="createRoleForCommon"
+		extends="commonLayout">
+		<put-attribute name="title" value="Role Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/createRole.jsp" />
+	</definition>
+
+	<definition name="editRoleForCommon" extends="commonLayout">
+		<put-attribute name="title" value="Edit Role Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editRole.jsp" />
+	</definition>
+
+	<definition name="manageRoleForCommon"
+		extends="commonLayout">
+		<put-attribute name="title" value="Manage Role Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/manageRole.jsp" />
+	</definition>
+	<definition name="createUserForCommon"
+		extends="commonLayout">
+		<put-attribute name="title" value="Create Role Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/createUser.jsp" />
+	</definition>
+
+	<definition name="fdPayment" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdPayment.jsp" />
+	</definition>
+	<definition name="bankPaymentOnMaturity"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bankPaymentOnMaturity.jsp" />
+	</definition>
+
+	<definition name="withdrawSearch" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/withdrawSearch.jsp" />
+	</definition>
+	<definition name="issueingOverdraft" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/issueingOverdraft.jsp" />
+	</definition>
+
+	<definition name="withdrawOverdraft" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/withdrawOverdraft.jsp" />
+	</definition>
+
+	<definition name="paymentOverdraft" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/paymentOverdraft.jsp" />
+	</definition>
+	<definition name="bankfdChangesLists" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdChangesLists.jsp" />
+	</definition>
+	<definition name="autoDepositList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/autoDepositList.jsp" />
+	</definition>
+	<definition name="withDrawFDSearch" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/withDrawFDSearch.jsp" />
+	</definition>
+	<definition name="withdrawList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/withdrawList.jsp" />
+	</definition>
+	<definition name="editCustomer" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editCustomer.jsp" />
+	</definition>
+	<definition name="allCustomersSaving" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/allCustomersSaving.jsp" />
+	</definition>
+	<definition name="showSavingAccount" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/showSavingAccount.jsp" />
+	</definition>
+	<definition name="deathIssue" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/deathIssue.jsp" />
+	</definition>
+	<definition name="searchDeathCustomer"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchDeathCustomer.jsp" />
+	</definition>
+	<definition name="deathCustomerList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/deathCustomerList.jsp" />
+	</definition>
+	<definition name="depositSummary" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositSummary.jsp" />
+	</definition>
+	<definition name="searchJournal" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchJournal.jsp" />
+	</definition>
+	<definition name="showDepositDetailsForBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/showDepositDetailsForBankEmp.jsp" />
+	</definition>
+	<definition name="viewLedger" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewLedger.jsp" />
+	</definition>
+
+	<definition name="fdPaymentDetails" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdPaymentDetails.jsp" />
+	</definition>
+	<definition name="fdPaymentDetailsConfirm"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdPaymentDetailsConfirm.jsp" />
+	</definition>
+	<definition name="fdWithdraw" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdWithdraw.jsp" />
+	</definition>
+	<definition name="confirmWithdrawFdUser"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmWithdrawFdUser.jsp" />
+	</definition>
+	<definition name="ledgerList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ledgerList.jsp" />
+	</definition>
+
+	<definition name="ledgerAllList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ledgerAllList.jsp" />
+	</definition>
+	<definition name="searchAllLedgerByDate"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchAllLedgerByDate.jsp" />
+	</definition>
+	<definition name="reportSummary" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/reportSummary.jsp" />
+	</definition>
+
+	<definition name="closedTransaction" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/closedTransaction.jsp" />
+	</definition>
+	<definition name="closedTransactionsList"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/closedTransactionsList.jsp" />
+	</definition>
+	<definition name="searchCustForModificationReport"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchCustForModificationReport.jsp" />
+	</definition>
+	<definition name="searchCustomerTdsReport"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchCustomerTdsReport.jsp" />
+	</definition>
+
+	<definition name="customerTdsReportList"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerTdsReportList.jsp" />
+	</definition>
+	<definition name="allCustomerTdsList" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/allCustomerTdsList.jsp" />
+	</definition>
+	<definition name="searchBankPayment" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchBankPayment.jsp" />
+	</definition>
+	<definition name="bankPaymentDetails" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/bankPaymentDetails.jsp" />
+	</definition>
+	<definition name="unSuccessfulPayOffDetails"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/payOffReport.jsp" />
+	</definition>
+
+	<definition name="unSuccessfulPayOffDetailsList"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/unSuccessfulPayOffDetailsList.jsp" />
+	</definition>
+	<definition name="fdListforHolderWiseResortBank"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdListforHolderWiseResortBank.jsp" />
+	</definition>
+	<definition name="holderWiseReportBank"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/holderWiseReportBank.jsp" />
+	</definition>
+	<definition name="holderWiseReport"
+		extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/holderWiseReport.jsp" />
+	</definition>
+	<definition name="interestReport" extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/interestReport.jsp" />
+	</definition>
+
+	<definition name="showInterestRecords"
+		extends="commonLayout">
+		<put-attribute name="title" value="Bank Employee Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/showInterestRecords.jsp" />
+	</definition>
+
+
+	<definition name="jointConsortiumDepositBankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Deposit" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/jointConsortiumDeposit.jsp" />
+	</definition>
+
+
+	<definition name="jointConsortiumDepositSummary"
+		extends="commonLayout">
+		<put-attribute name="title" value="Deposit" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/jointConsortiumDepositSummary.jsp" />
+	</definition>
+
+	<!-- Approval Manager -->
+	<definition name="customerApprovalList"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Customer Approval List Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerApprovalList.jsp" />
+	</definition>
+
+
+	<definition name="fdPendingList" extends="commonLayout">
+		<put-attribute name="title"
+			value="Deposit Pending Listr Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdPendingList.jsp" />
+	</definition>
+
+	<definition name="approveFdPendingList"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approve Deposit Pending List Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveDeposit.jsp" />
+	</definition>
+	<definition name="approveCustomer" extends="commonLayout">
+		<put-attribute name="title"
+			value="Approve Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveCustomer.jsp" />
+	</definition>
+	<definition name="approveCustomerConfirm"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Approve Customer Confirm  Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/approveCustomerConfirm.jsp" />
+	</definition>
+
+	<definition name="customerCitizenConversion"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Customer Citizen Conversion Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerCitizenConversion.jsp" />
+	</definition>
+
+	<definition name="customerCitizenConversionConfirm"
+		extends="commonLayout">
+		<put-attribute name="title"
+			value="Customer Citizen Conversion Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/customerCitizenConversionConfirm.jsp" />
+	</definition>
+
+	<definition name="searchCustomerForSweepFacility"
+		extends="commonLayout">
+		<put-attribute name="title" value="Sweep Facility Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/searchCustomerForSweepFacility.jsp" />
+	</definition>
+
+	<definition name="sweepDepositFacility"
+		extends="commonLayout">
+		<put-attribute name="title" value="Sweep Facility Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/sweepDepositFacility.jsp" />
+	</definition>
+
+	<definition name="generic_error_BankEmp"
+		extends="commonLayout">
+		<put-attribute name="title" value="Error Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/error/generic_error_BankEmp.jsp" />
+	</definition>
+
+	<definition name="clearanceList" extends="commonLayout">
+		<put-attribute name="title" value="Clearance Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/clearanceList.jsp" />
+	</definition>
+
+	<definition name="depositClearance" extends="commonLayout">
+		<put-attribute name="title" value="Clearance Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositClearance.jsp" />
+	</definition>
+
+	<definition name="overdraftList" extends="commonLayout">
+		<put-attribute name="title" value="List of Overdrafts" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/overdraftList.jsp" />
+	</definition>
+
+	<definition name="ledgerPosting" extends="commonLayout">
+		<put-attribute name="title" value="Laedger Posting Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ledgerPosting.jsp" />
+	</definition>
+	
+	<definition name="userDashboard" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/customerFdChangesLists.jsp" />
+	</definition>
+	
+	<definition name="createSingleDeposit" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fixedDepositForm.jsp" />
+	</definition>
+	
+
+	<definition name="fdChangesListForFundTransfer"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/fdChangesListForFundTransfer.jsp" />
+	</definition>
+	<definition name="noDataFoundCusm" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/bankEmp/noDataFound.jsp" />
+	</definition>
+	
+	<definition name="ornaments" extends="commonLayout">
+		<put-attribute name="title" value="Ornaments Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ornaments.jsp" />
+	</definition>
+
+	<definition name="editOrnament" extends="commonLayout">
+		<put-attribute name="title" value="Ornament Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editOrnament.jsp" />
+	</definition>
+	
+
+	
+	<definition name="custDepositAmount"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/custDepositAmount.jsp" />
+	</definition>
+	<definition name="netBankingPayment"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/netBanking.jsp" />
+	</definition>
+	
+		<definition name="fdSaved" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/fdSaved.jsp" />
+	</definition>
+	
+		<definition name="multipleDepositFundTransfer"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/customer/multipleDepositFundTransfer.jsp" />
+	</definition>
+	
+	
+	
+
+	<definition name="downloadDocument" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/downloadDocument.jsp" />
+	</definition>
+	
+	<definition name="overdraftSummary" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/overdraftSummary.jsp" />
+	</definition>
+	
+	
+	<definition name="overdraftWithdrawMasterList" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/overdraftWithdrawMasterList.jsp" />
+	</definition>
+	
+	
+	<definition name="overdraftPaymentList" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/overdraftPaymentList.jsp" />
+	</definition>
+	
+	<definition name="deleteDownloadDocuments" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/deleteDownloadDocuments.jsp" />
+
+	</definition>
+	
+	<definition name="depositPaymentSearch" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositPaymentSearch.jsp" />
+
+	</definition>
+	<definition name="fdChangesListsForCust" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdChangesListsForCust.jsp" />
+	</definition>
+	
+
+		<definition name="distributonListsForCustomer" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/distributionListsForCustomer.jsp" />
+	</definition>
+	<definition name="customerClosingFDList" extends="commonLayout">
+		<put-attribute name="title" value="Customer Fd List" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/closingFDListCust.jsp" />
+	</definition>
+	<definition name="interestReportCus"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/interestReportCus.jsp" />
+	</definition>
+
+
+	<definition name="showInterestRecordsCus"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/showInterestRecords.jsp" />
+	</definition>
+		<definition name="fdListforHolderWiseResort"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdListforHolderWiseResort.jsp" />
+			</definition>
+
+			
+
+	<definition name="taxExemptionConfiguration" extends="commonLayout">
+		<put-attribute name="title" value="common Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/taxExemptionConfiguration.jsp" />
+
+	</definition>
+	<definition name="viewAndEditTaxExemptionConfiguration" extends="commonLayout">
+		<put-attribute name="title" value="common Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/viewAndEditTaxExemptionConfiguration.jsp" />
+
+	</definition>
+	
+
+
+			
+			<definition name="depositWithdraw" extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/depositWithdraw.jsp" />
+	</definition>
+<definition name="fdCustomerListForWithdraw"
+		extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/fdCustomerListForWithdraw.jsp" />
+	</definition>
+
+
+	<definition name="withdrawListCust" extends="commonLayout">
+		<put-attribute name="title" value="customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/withdrawListCust.jsp" />
+	</definition>
+	
+	<definition name="ornamentSubmission" extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ornamentSubmission.jsp" />
+	</definition>
+
+   <definition name="ornamentSubmissionConfirm" extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/ornamentSubmissionConfirm.jsp" />
+	</definition>
+	
+	<definition name="editProfile" extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editProfile.jsp" />
+	</definition>
+	
+	
+	<definition name="editPWD" extends="commonLayout">
+		<put-attribute name="title" value="Commoon Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/editPWD.jsp" />
+	</definition>
+	
+	<definition name="confirmEditProfile" extends="commonLayout">
+		<put-attribute name="title" value="Customer Page" />
+		<put-attribute name="commonBody"
+			value="/WEB-INF/pages/common/confirmEditProfile.jsp" />
+	</definition>
+
+</tiles-definitions>
